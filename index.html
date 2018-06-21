@@ -22,6 +22,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/agency.css" rel="stylesheet">
+    <link href="css/naver.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/loading.min.css">
 
   </head>
 
@@ -44,10 +46,10 @@
               <a class="nav-link js-scroll-trigger" href="#Character">Character</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#Comment">Comment</a>
+              <a class="nav-link js-scroll-trigger" href="#Review">Review</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#Trailer">Trailer</a>
+              <a class="nav-link js-scroll-trigger" id="trailer" href="#Trailer">Trailer</a>
             </li>
           </ul>
         </div>
@@ -63,94 +65,111 @@
       <div id="contents" class="col-md-6">
         <!-- Services -->
         <section id="Synopsis">
-          <p>content</p>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2 class="section-heading text-uppercase">Synopsis</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <p>
+                Thor is imprisoned on the other side of the universe without his mighty hammer and finds himself in a race against time to get back to Asgard to stop Ragnarok—the destruction of his homeworld and the end of Asgardian civilization—at the hands of an all-powerful new threat, the ruthless Hela. But first he must survive a deadly gladiatorial contest that pits him against his former ally and fellow Avenger—the Incredible Hulk! Thor: Ragnarok is directed by Taika Waititi and returns Chris Hemsworth starring as Thor and Tom Hiddlestonreprising his role as Loki. They are joined by Cate Blanchett, Idris Elba, Jeff Goldblum, Tessa Thompson and Karl Urban, with Mark Ruffalo and Anthony Hopkins.
+              </p>
+            </div>
+            <div class="col-md-4 poster">
+              <img src="./img/poster.jpg">
+            </div>
+          </div>
         </section>
 
         <!-- Portfolio Grid -->
         <section id="Character">
-          <p>content</p>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2 class="section-heading text-uppercase">CHARACTER</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" image-data="ch1" src="./img/ch1.jpg">
+                <h4>Chris Hemsworth</h4>
+                <p class="text-muted">Thor</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" image-data="ch2" src="./img/ch2.jpg">
+                <h4>Tom Hiddleston</h4>
+                <p class="text-muted">Loki</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" image-data="ch3" src="./img/ch3.jpg">
+                <h4>Cate Blanchett</h4>
+                <p class="text-muted">Hela</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" image-data="ch4" src="./img/ch4.jpg">
+                <h4>Mark Ruffalo</h4>
+                <p class="text-muted">Hulk</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" image-data="ch5" src="./img/ch5.jpg">
+                <h4>Anthony Hopkins</h4>
+                <p class="text-muted">Odin</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" image-data="ch6" src="./img/ch6.jpg">
+                <h4>Tessa Thompson</h4>
+                <p class="text-muted">Valkyrie</p>
+              </div>
+            </div>
+          </div>
         </section>
 
         <!-- About -->
-        <section id="Comment">
-                <p>content</p>
+        <section id="Review">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2 class="section-heading text-uppercase">Review</h2>
+            </div>
+          </div>
+          <div class="review">
+
+          </div>
         </section>
 
         <!-- Team -->
         <section id="Trailer">
-                <p>content</p>
+
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2 class="section-heading text-uppercase">Trailer</h2>
+            </div>
+          </div>
+          <div class="row trailer">
+            <div class="col-md-12">
+              <iframe width="100%" height="480" src="https://www.youtube.com/embed/ue80QwXMRHg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
         </section>
       </div>
     </div>
 
-    <!-- Clients -->
-    <!-- <section class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section> -->
+    <img id="thor" src="./img/thor.png">
+    <img id="hulk" src="./img/hulk.png">
+    <img id="hela" src="./img/hela.png">
+    <img id="loki" src="./img/loki.png">
 
-    <!-- Footer -->
-    <!-- <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2018</span>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer> -->
-    <!-- Bootstrap core JavaScript -->
+
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -163,7 +182,65 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.loading.min.js"></script>
 
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $.showLoading();
+        getReview();
+      });
+
+      function showReviewDetail(nid){
+
+      }
+
+      function getReview(){
+        var link = 'https://movie.naver.com/movie/bi/mi/review.nhn?code=134898&page=1';
+        $.ajax({
+          url : "https://cors-anywhere-esko.herokuapp.com/"+link,
+          type : 'GET',
+          success : function(data){
+            var list = $(data).find('.rvw_list_area');
+            $('.review').append(list);
+            var num = $('.rvw_list_area li').length;
+            for(var i=1;i<=num;i++){
+              var n = $('.rvw_list_area li:nth-child('+i+') a').attr('onclick').split('showReviewDetail')[1].split('(')[1].split(')')[0];
+              $($('.rvw_list_area li:nth-child('+i+') a')[0]).attr('onclick','').attr('href','https://movie.naver.com/movie/bi/mi/reviewread.nhn?nid='+n+'&code=134898&order=#tab');
+              $($('.rvw_list_area li:nth-child('+i+') a')[1]).attr('onclick','').attr('href','https://movie.naver.com/movie/board/review/list.nhn?st=nickname&sword='+n);
+              $($('.rvw_list_area li:nth-child('+i+') a')[2]).attr('onclick','').attr('href','https://movie.naver.com/movie/bi/mi/reviewread.nhn?nid='+n+'&code=134898&order=#tab');
+              $('.rvw_list_area li:nth-child('+i+') a').attr('target','_blank');
+              $.hideLoading();
+            }
+
+          }
+        });
+      }
+
+      $('.team-member img').on('mouseover',function(){
+        var img = $(this).attr('image-data');
+        $(this).attr('src','./img/'+img+'_'+img+'.jpg');
+      });
+
+      $('.team-member img').on('mouseout',function(){
+        var img = $(this).attr('image-data');
+        $(this).attr('src','./img/'+img+'.jpg');
+      });
+
+      $(window).on('scroll',function(){
+        if($('#trailer').attr('class')=="nav-link js-scroll-trigger active"){
+          $("#thor").show("bounce",{direction:"up"},900);
+          $("#hulk").show("bounce",{direction:"left"},900);
+          $("#hela").show("bounce",{direction:"right"},900);
+          $("#loki").show("bounce",{direction:"down"},900);
+        }else{
+          $("#thor").hide("drop",{direction:"right"},300);
+          $("#hulk").hide("drop",{direction:"left"},300);
+          $("#hela").hide("drop",{direction:"right"},300);
+          $("#loki").hide("drop",{direction:"left"},300);
+        }
+      });
+    </script>
   </body>
 
 </html>

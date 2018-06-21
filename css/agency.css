@@ -161,7 +161,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #bc4a07;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -689,7 +689,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 #contents{
-  background: white
+  background: #0f0f0f;
+  color: white;
 }
 
 .bg{
@@ -740,4 +741,53 @@ animation-delay: 2s;
     94% { opacity: 0.2; }
     96% { opacity: 1; }
 	to { opacity: 0; }
+}
+
+.poster img{
+  width: 100%;
+}
+
+.trailer iframe{
+}
+
+#thor{
+  display: none;
+  position: fixed;
+  width: 500px;
+  bottom: -10px;
+  right: 0px;
+}
+
+#hulk{
+  display: none;
+  position: fixed;
+  width: 300px;
+  bottom: -10px;
+  left: 70px;
+}
+
+#hela{
+  display: none;
+  position: fixed;
+  width: 300px;
+  top: 50px;
+  right: 150px;
+  z-index: 99999999999
+}
+
+#loki{
+  display: none;
+  position: fixed;
+  width: 350px;
+  top: 10px;
+  left: 150px;
+  z-index: 99999999999
+}
+
+ul{
+  list-style: none !important;
+}
+
+#Synopsis div p {
+  font-size: 21px;
 }
